@@ -44,7 +44,7 @@ const PromptCard = ({post, handleTagClick, handleEdit, handleDelete}) => {
           />
         </div>
       </div>
-      <p className="mt-4 font-satoshi text-sm text-gray-700">{post.prompt}</p>
+      <p className="mt-4 font-satoshi text-sm text-gray-700 card_content">{post.prompt}</p>
       <p className="font-inter text-sm blue_gradient cursor-pointer"
       onClick={() => handleTagClick && handleTagClick(post.tag)}>{post.tag}</p>
 
